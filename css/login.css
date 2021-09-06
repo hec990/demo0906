@@ -3,12 +3,47 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
-header {
+.box {
 	border: 1px solid red;
-	height: 40px;
+}
+header {
+	display: flex;
 }
 header>div {
+	text-align: right;
+	margin-right: 5px;
+	color: orange;
+	line-height: 50px;
+	width: 400px;
+	height: 50px;
+}
+main {
 	border: 1px solid red;
-	height: 40px;
+	height: 500px;
+}
+
+main>.login{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main>.login>div {
+	width: 200px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background-color: #007AFF;
+	color: white;
+	border-radius: 30px;
+	margin-top: 20px;
+}
+main>.pwd{
+	display: flex;
+	justify-content: center;
+}
+main>.pwd>div {
+	margin-top: 20px;
+	color: #007AFF;
+	font-size: 14px;
 }

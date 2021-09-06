@@ -2,14 +2,46 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>登录</title>
+		<meta name="viewport"
+			content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
 		<script src="js/mui.min.js"></script>
 		<link href="css/mui.min.css" rel="stylesheet" />
-		<link rel="stylesheet" href="./css/login.css">
+		<link rel="stylesheet" type="text/css" href="./css/login.css" />
+		<script type="text/javascript" charset="utf-8">
+			mui.init();
+		</script>
 	</head>
 	<body>
-		<header>
-			<div>手机快速注册</div>
-		</header>
+		<div class="box">
+			<header>
+				<div>手机快速注册</div>
+			</header>
+			<main>
+				<form class="mui-input-group">
+				    <div class="mui-input-row">
+				        <label>用户名</label>
+				    <input type="text" class="mui-input-clear" placeholder="请输入用户名">
+				    </div>
+				    <div class="mui-input-row">
+				        <label>密码</label>
+				        <input type="password" class="mui-input-password" placeholder="请输入密码">
+				    </div>
+				</form>
+				<div class="login">
+					<div>登录</div>
+				</div>
+				<div class="pwd">
+					<div>忘记密码</div>
+				</div>
+			</main>
+			<footer>
+				qq登录
+			</footer>
+		</div>
+
+
+
+
 	</body>
 </html>
