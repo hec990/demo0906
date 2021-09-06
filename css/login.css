@@ -1,0 +1,14 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+	border: 1px solid red;
+	height: 40px;
+}
+header>div {
+	border: 1px solid red;
+	height: 40px;
+}

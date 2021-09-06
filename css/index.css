@@ -1,0 +1,65 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header {
+	border: 1px solid #ccc;
+	height: 50px;
+	display: flex;
+}
+header>.logo{
+	flex: 1;
+}
+header>.logo>img{
+	margin: 6px;
+}
+
+header>.home{
+	flex: 3;
+	text-align: center;
+	line-height: 45px;
+	font-size: 22px;
+}
+header>.search{
+	flex: 1;
+}
+header>.search>img{
+	margin: 8px 0px 0px 19px;
+}
+
+.mui-slider {
+	border: 1px solid #ccc;
+}
+/* 轮播图 */
+.mui-slider .mui-slider-group .mui-slider-item {
+	height: 180px !important;
+}
+
+/* main css */
+main {
+	/* border: 1px solid blue; */
+}
+
+.main_tab {
+	display: flex;
+}
+.main_tab>div {
+	flex: 1;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	border: 1px solid #ccc;
+	margin: 4px;
+	border-radius: 6px;
+}
+.main_tab>div:hover {
+	background: #007AFF;
+}
+
+.main_content>div {
+	height: 130px;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	margin: 6px;
+}
