@@ -3,32 +3,38 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-.box {
-	border: 1px solid red;
-}
-header {
-	display: flex;
-}
-header>div {
-	text-align: right;
-	margin-right: 5px;
-	color: orange;
-	line-height: 50px;
-	width: 400px;
+
+#page3>.box>.iphone {
 	height: 50px;
+	text-align: right;
+	display: flex;
+	align-items: center;
 }
-main {
-	border: 1px solid red;
-	height: 500px;
+#page3>.box>.iphone>div{
+	margin-left: 260px;
+	color: #ec971f;
 }
 
-main>.login{
+main {
+	border: 1px solid transparent;
+	height: 447px;
+}
+.login_box>.user {
+	height: 150px;
+    display: flex;
+	justify-content: center;
+}
+
+main>.login_box{
+	margin-top: 100px;
+}
+main>.login_box>.lg>.login{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-main>.login>div {
+main>.login_box>.lg>.login>div {
 	width: 200px;
 	height: 50px;
 	text-align: center;
@@ -38,12 +44,61 @@ main>.login>div {
 	border-radius: 30px;
 	margin-top: 20px;
 }
-main>.pwd{
+
+main>.login_box>.lg>.pwd{
 	display: flex;
 	justify-content: center;
 }
-main>.pwd>div {
+main>.login_box>.lg>.pwd>div {
 	margin-top: 20px;
 	color: #007AFF;
 	font-size: 14px;
 }
+
+/* from css */
+.mui-input-group {
+	height: 80px;
+	width: 300px !important;
+	margin-top: 30px;
+	background-color: #ccc;
+}
+
+/* footer */
+footer {
+	height: 126px;
+}
+footer>.contact {
+	display: flex;
+	margin: 5px;
+}
+footer>.contact>div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 114px;
+}
+footer>.contact>div:nth-child(1) {
+	flex: 3;
+	border-top:2px solid #929292;
+}
+footer>.contact>div:nth-child(2) {
+	flex: 2;
+}
+footer>.contact>div:nth-child(3) {
+	flex: 3;
+	border-top:2px solid #929292;
+}
+footer>span{
+	position: absolute;
+	bottom: 110px;
+	left: 154px;
+	color: #929292;
+	font-size: 14px;
+}
+
+/*form input user pwd*/
+.input {
+	background-color: transparent;
+	border: none;
+}
+
