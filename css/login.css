@@ -102,3 +102,24 @@ footer>span{
 	border: none;
 }
 
+/* input */
+.user {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.user  input {
+	width: 300px;
+	margin: 17px;
+}
+.user .username {
+	display: flex;
+	justify-content: center;
+}
+.user .password {
+	display: flex;
+	justify-content: center;
+}
+
+
+

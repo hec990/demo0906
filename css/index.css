@@ -20,7 +20,7 @@ header>.home{
 	flex: 3;
 	text-align: center;
 	line-height: 45px;
-	font-size: 22px;
+	font-size: 20px;
 }
 header>.search{
 	flex: 1;
@@ -52,7 +52,7 @@ header>.search>img{
 	margin: 4px;
 	border-radius: 6px;
 }
-.main_tab>div:hover {
+.main_tab>div:nth-child(1) {
 	background: #007AFF;
 }
 
@@ -67,8 +67,12 @@ header>.search>img{
 	border-right: 1px solid #ccc;
 	flex: 1;
 }
+.main_content>div>.div1_img>img {
+	width: 160px;
+	
+}
 .main_content>div>.div2_name {
-	flex: 1;
+	flex: 2;
 }
 
 .div2_name>.div_name{
@@ -78,8 +82,7 @@ header>.search>img{
 }
 .div2_name>.div_desciption{
 	overflow: hidden;
-	height: 74px;
-	/*border: 1px solid red;*/
+	height: 48px;
 	font-size: 14px;
 	color: #8f8f94;
 	padding: 3px;

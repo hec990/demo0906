@@ -10,192 +10,253 @@
 		<link rel="stylesheet" type="text/css" href="./css/index.css" />
 		<link rel="stylesheet" href="./css/login.css">
 		<link rel="stylesheet" href="./css/kec.css">
+		<link rel="stylesheet" type="text/css" href="./css/midea.css"/>
 		<script type="text/javascript" charset="utf-8">
 			mui.init();
 		</script>
 	</head>
 	<body>
-          <!--tab -->
-			<nav class="mui-bar mui-bar-tab">
-				<a class="mui-tab-item mui-active" href="#page1">
-					<span class="mui-icon mui-icon-home"></span>
-					<span class="mui-tab-label">首页</span>
-				</a>
+		<!--tab -->
+		<nav class="mui-bar mui-bar-tab">
+			<a class="mui-tab-item mui-active" href="#page1">
+				<span class="mui-icon mui-icon-bars"></span>
+				<span class="mui-tab-label">首页</span>
+			</a>
 
-				<a class="mui-tab-item" href="#page2">
-					<span class="mui-icon mui-icon-email"></span>
-					<span class="mui-tab-label">课程</span>
-				</a>
-				<a class="mui-tab-item" href="#page3">
-					<span class="mui-icon mui-icon-contact"></span>
-					<span class="mui-tab-label">个人中心</span>
-				</a>
-			</nav>
+			<a class="mui-tab-item" href="#page2">
+				<span class="mui-icon mui-icon-compose"></span>
+				<span class="mui-tab-label">课程</span>
+			</a>
+			<a class="mui-tab-item" href="#page3">
+				<span class="mui-icon mui-icon-contact"></span>
+				<span class="mui-tab-label">个人中心</span>
+			</a>
+		</nav>
 
 
-			<div class="mui-content">
-                    <!-- 首页-->
-				<div id="page1" class="mui-control-content mui-active">
-					<header>
-						<div class="logo">
-							<img src="./images/logo.png" height="36">
+		<div class="mui-content">
+			<!-- 首页-->
+			<div id="page1" class="mui-control-content mui-active">
+				<header>
+					<div class="logo">
+						<img src="./images/logo.png" height="36">
+					</div>
+					<div class="home">首页</div>
+					<div class="search">
+						<img src="./images/search.png" height="32">
+					</div>
+				</header>
+				<!-- 轮播图 -->
+				<div class="mui-slider">
+					<div class="mui-slider-group mui-slider-loop">
+						<div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img
+									src="./images/4.png" /></a>4
 						</div>
-						<div class="home">首页</div>
-						<div class="search">
-							<img src="./images/search.png" height="32">
-						</div>
-					</header>
-					<!-- 轮播图 -->
-					<div class="mui-slider">
-						<div class="mui-slider-group mui-slider-loop">
-							<div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="./images/4.png" /></a>4
-							</div>
-							<div class="mui-slider-item"><a href="#"><img src="./images/1.png" /></a>1</div>
-							<div class="mui-slider-item"><a href="#"><img src="#" /></a>2</div>
-							<div class="mui-slider-item"><a href="#"><img src="#" /></a>3</div>
-							<div class="mui-slider-item"><a href="#"><img src="#" /></a>4</div>
-							<div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="./images/1.png" /></a>1
-							</div>
+						<div class="mui-slider-item"><a href="#"><img src="./images/1.png" /></a>1</div>
+						<div class="mui-slider-item"><a href="#"><img src="./images/2.png" /></a>2</div>
+						<div class="mui-slider-item"><a href="#"><img src="./images/3.png" /></a>3</div>
+						<div class="mui-slider-item"><a href="#"><img src="./images/4.png" /></a>4</div>
+						<div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img
+									src="./images/1.png" /></a>1
 						</div>
 					</div>
-					<main>
-						<div class="main_tab">
-							<div>热门推荐</div>
-							<div>话题</div>
-							<div>健身爱好者</div>
-						</div>
-						<div class="main_content">
-							<div>
-									<div class="div1_img">
-										图片
-									</div>
-									<div class="div2_name">
-										<div class="div_name">瘦身秘诀</div>
-										<div class="div_desciption">
-											只要跟着我学，你也可以像我一样瘦,只要跟着我学要跟着我学要跟要跟着...
-										</div>
-									</div>
-
-							</div>
-
-
-
-
-						</div>
-					</main>
 				</div>
-
-				<!-- 课程-->
-				<div id="page2" class="mui-control-content">
-					<header>
-						<div class="logo">
-							<img src="./images/logo.png" height="36">
-						</div>
-						<div class="home">课程</div>
-						<div class="search">
-						</div>
-					</header>
-					<div class="kec_slider">
-                         <!-- 轮播图 start-->
-						<div class="mui-slider">
-							<div class="mui-slider-group mui-slider-loop">
-								<div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="./images/4.png" /></a>4
-								</div>
-								<div class="mui-slider-item"><a href="#"><img src="./images/1.png" /></a>1</div>
-								<div class="mui-slider-item"><a href="#"><img src="#" /></a>2</div>
-								<div class="mui-slider-item"><a href="#"><img src="#" /></a>3</div>
-								<div class="mui-slider-item"><a href="#"><img src="#" /></a>4</div>
-								<div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="./images/1.png" /></a>1
-								</div>
-							</div>
-						</div>
-						<!-- 轮播图 end-->
-
-						<!--	课程 start			-->
-						<div class="kec_items">
-							<div>
-								<img src="./images/qq.png">
-								<span>找课程</span>
-							</div>
-							<div>
-								<img src="./images/qq.png">
-								<span>动作库</span>
-							</div>
-							<div>
-								<img src="./images/qq.png" >
-								<span>活动挑战</span>
-							</div>
-							<div>
-								<img src="./images/qq.png" >
-								<span>私家课</span>
-							</div>
-						</div>
-						<!--	课程 end			-->
-
-                       <div class="kec_remen">
-						   <p>热门课程分类</p>
-						   <span>减脂</span>
-						   <span>瘦腿</span>
-						   <span>健身</span>
-					   </div>
-						<div class="kec_remen_quanzhan">
-                             <p>全站热门分类</p>
-						</div>
-
+				<main>
+					<div class="main_tab">
+						<div>热门推荐</div>
+						<div>话题</div>
+						<div>健身爱好者</div>
 					</div>
+					<div class="main_content">
+						<div>
+							<div class="div1_img">
+								<img src="./images/11.png" >
+							</div>
+							<div class="div2_name">
+								<div class="div_name">腹肌动作练习</div>
+								<div class="div_desciption">
+									只要跟着我学，你也可以像我一样瘦,只要跟着我学要跟着我学要跟要跟着...
+								</div>
+							</div>
 
-				</div>
-
-                <!-- 个人中心-->
-				<div id="page3" class="mui-control-content">
-					<div class="box">
-						<div class="iphone">
-							<div>手机快速注册</div>
 						</div>
-						<main>
-							<div class="login_box">
-								<div class="user">
-									<form class="mui-input-group input">
-										<div class="mui-input-row user">
-											<label>用户名</label>
-											<input type="text" class="mui-input-clear" placeholder="用户名/邮箱/手机号">
-										</div>
-										<div class="mui-input-row pwd">
-											<label>密码</label>
-											<input type="password" class="mui-input-password" placeholder="登录密码">
-										</div>
-									</form>
-								</div>
-								<div class="lg">
-									<div class="login">
-										<div>登录</div>
-									</div>
-									<div class="pwd">
-										<div>忘记密码</div>
-									</div>
+						<div>
+							<div class="div1_img">
+								<img src="./images/11.png" >
+							</div>
+							<div class="div2_name">
+								<div class="div_name">俯卧撑正确方式</div>
+								<div class="div_desciption">
+									只要跟着我学，你也可以像我一样瘦,只要跟着我学要跟着我学要跟要跟着...
 								</div>
 							</div>
-						</main>
-						<footer>
-							<div class="contact">
-								<div>
-									<img src="./images/weixin.png" height="45">
-								</div>
-								<div>
-									<img src="./images/qq.png" height="45">
-								</div>
-								<div>
-									<img src="./images/weibo.png" height="45">
+
+						</div>
+						<div>
+							<div class="div1_img">
+								<img src="./images/11.png" >
+							</div>
+							<div class="div2_name">
+								<div class="div_name">跑步大神</div>
+								<div class="div_desciption">
+									只要跟着我学，你也可以像我一样瘦,只要跟着我学要跟着我学要跟要跟着...
 								</div>
 							</div>
-							<span>第三方登录</span>
-						</footer>
+
+						</div>
+						<div>
+							<div class="div1_img">
+								<img src="./images/11.png" >
+							</div>
+							<div class="div2_name">
+								<div class="div_name">增肌计划</div>
+								<div class="div_desciption">
+									只要跟着我学，你也可以像我一样瘦,只要跟着我学要跟着我学要跟要跟着...
+								</div>
+							</div>
+
+						</div>
+						<div>
+							<div class="div1_img">
+								<img src="./images/11.png" >
+							</div>
+							<div class="div2_name">
+								<div class="div_name">进阶跑步</div>
+								<div class="div_desciption">
+									只要跟着我学，你也可以像我一样瘦,只要跟着我学要跟着我学要跟要跟着...
+								</div>
+							</div>
+
+						</div>
 					</div>
-				</div>
+				</main>
 			</div>
 
+			<!-- 课程-->
+			<div id="page2" class="mui-control-content">
+				<header>
+					<div class="logo">
+						<img src="./images/logo.png" height="36">
+					</div>
+					<div class="home">课程</div>
+					<div class="search">
+					</div>
+				</header>
+				<div class="kec_slider">
+					<!-- 轮播图 start-->
+					<div class="mui-slider">
+						<div class="mui-slider-group mui-slider-loop">
+							<div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img
+										src="./images/4.png" /></a>4
+							</div>
+							<div class="mui-slider-item"><a href="#"><img src="./images/1.png" /></a></div>
+							<div class="mui-slider-item"><a href="#"><img src="./images/2.png" /></a></div>
+							<div class="mui-slider-item"><a href="#"><img src="./images/3.png" /></a></div>
+							<div class="mui-slider-item"><a href="#"><img src="./images/4.png" /></a></div>
+							<div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img
+										src="./images/1.png" /></a>1
+							</div>
+						</div>
+					</div>
+					<!-- 轮播图 end-->
 
-		
+					<!--	课程 start			-->
+					<div class="kec_items">
+						<div>
+							<img src="./images/111.png">
+							<span>找课程</span>
+						</div>
+						<div>
+							<img src="./images/222.png">
+							<span>动作库</span>
+						</div>
+						<div>
+							<img src="./images/333.png">
+							<span>活动挑战</span>
+						</div>
+						<div>
+							<img src="./images/444.png">
+							<span>私家课</span>
+						</div>
+					</div>
+					<!--	课程 end			-->
+
+					<div class="kec_remen">
+						<p>热门课程分类</p>
+						<div class="items">
+							<span style="width: 50px;">减脂</span>
+							<span>瘦腿</span>
+							<span>斜方肌</span>
+							<span>跑步</span>
+						</div>
+						<div class="items">
+							<span>减脂</span>
+							<span>瘦腿</span>
+							<span>斜方肌</span>
+						</div>
+						<div class="items">
+							<span>减脂</span>
+							<span>瘦腿</span>
+							<span>减脂</span>
+							<span>瘦腿</span>
+						</div>
+						
+					</div>
+					<div class="kec_remen_quanzhan">
+						<p>全站热门分类</p>
+						
+					</div>
+
+				</div>
+
+			</div>
+
+			<!-- 个人中心-->
+			<div id="page3" class="mui-control-content">
+				<div class="box">
+					<div class="iphone">
+						<div>手机快速注册</div>
+					</div>
+					<main>
+						<div class="login_box">
+							<div class="user">
+								<div class="username">
+									<input type="text" placeholder="用户名/手机号/邮箱"> 
+								</div>
+								<div class="password">
+									<input type="text" placeholder="登录密码">
+								</div>
+							</div>
+							<div class="lg">
+								<div class="login">
+									<div>登录</div>
+								</div>
+								<div class="pwd">
+									<div>忘记密码</div>
+								</div>
+							</div>
+						</div>
+					</main>
+					<footer>
+						<div class="contact">
+							<div>
+								<img src="./images/weixin.png" height="45">
+							</div>
+							<div>
+								<img src="./images/qq.png" height="45">
+							</div>
+							<div>
+								<img src="./images/weibo.png" height="45">
+							</div>
+						</div>
+						<span>第三方登录</span>
+					</footer>
+				</div>
+			</div>
+		</div>
+
+
+
 
 
 		<script type="text/javascript">
@@ -205,7 +266,6 @@
 				interval: 4000
 			});
 			// tab 切换
-			
 		</script>
 	</body>
 </html>

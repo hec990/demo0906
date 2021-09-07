@@ -1,0 +1,56 @@
+.kec_items {
+	border-bottom: 1px solid #CCCCCC;
+	display: flex;
+}
+.kec_items div{
+	width: 36px;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.kec_items div img {
+	margin-top: 5px;
+	height: 36px;
+	width: 36px;
+}
+.kec_items div span {
+	margin-top: 5px;
+	padding: 5px;
+	font-size: 14px;
+	color: #808080;
+}
+
+/* 热门课程分类 */
+.kec_remen {
+	margin-top: 6px;
+	border: 1px solid #ccc;
+}
+
+.kec_remen p{
+	padding: 6px;
+}
+
+.kec_remen .items {
+	margin: 10px;
+}
+.kec_remen .items span {
+	border: 1px solid #ccc;
+	padding: 4px;
+	margin: 17px;
+	border-radius: 10px;
+}
+
+/* 全站分类 */
+
+.kec_remen_quanzhan {
+	margin-top: 6px;
+	border: 1px solid #ccc;
+}
+.kec_remen_quanzhan p{
+	padding: 3px;
+	height: 120px;
+}
